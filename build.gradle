@@ -1,0 +1,19 @@
+group 'io.tinius.code42'
+version '0.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.1'
+}
+
+repositories {
+    mavenLocal( )
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
