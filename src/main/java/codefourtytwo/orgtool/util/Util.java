@@ -15,6 +15,6 @@ public class Util
     public static int convert( final String string )
     {
         final String string2convert = string.replace( " ", "" );
-        return isDigit( Objects.requireNonNull( string2convert ) ) ? Integer.parseInt( string2convert ) : -1;
+        return isDigit( string2convert );
     }
 }
