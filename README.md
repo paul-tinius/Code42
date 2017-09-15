@@ -20,7 +20,7 @@ Could have used
 If there where 500 million Organizations how would you change your implementation?
 
 ```
-The in-memory store would be replaced by ( database either SQL or NoSql ) that allow for better storage management 
+The in-memory store would be replaced by ( database either SQL or NoSql ) that allows for better storage management 
 but is still performent. Maybe Redis, allow fast access and can be used as cache.
 
 Other enhancements:
